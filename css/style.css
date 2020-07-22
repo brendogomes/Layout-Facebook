@@ -1,0 +1,288 @@
+/*Zerando configurações*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Limpar fluxo*/
+clear {
+    clear: both;
+}
+
+/*Area do logo e login*/
+header {
+    background-color: #3b5998;
+    background-image: linear-gradient(#4050ad,#375391);
+    border-bottom: 1px solid #133783;
+    min-height: 82px;
+    color: #fff;
+}
+
+.top-area {
+    max-width: 990px;
+    height: 82px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    padding-top: 14px;
+}
+
+.form-login {
+    display: flex;
+    padding-right: 20px;
+    padding-top: 12px;
+}
+
+.input-email, .input-password {
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-left: 14px;
+}
+
+.input-label {
+    padding-bottom: 4px;
+}
+
+.link-password {
+    padding-top: 4px;
+    text-decoration: none;
+    color: rgba(212, 233, 253, 0.603);
+}
+
+.link-password:hover {
+    text-decoration: underline;
+}
+
+.input-button {
+    margin-left: 14px;
+    width: 50px;
+    height: 23px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    color: #fff;
+    background: #496dbb;
+    border-radius: 2px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.315);
+    cursor: pointer;
+}
+
+.input-button:hover {
+    background: #3b5998;
+}
+
+.form-login input[type=email],
+.form-login input[type=password] {
+    outline: none;
+    padding-left: 2px;
+    height: 22px;
+    width: 149px;
+    border: 1px solid rgba(0, 0, 0, 0.699);
+}
+
+/*Area de conteudo*/
+#content {
+    height: 600px;
+    background: linear-gradient(#ffffff, #dfe1ee);
+}
+
+.presentation-content p {
+    width: 500px;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #052872;
+    margin-left: 175px;
+    margin-top: 35px;
+}
+
+.presentation-content img {
+    margin-left: 175px;
+}
+
+.content-login {
+    width: 500px;
+    margin-top: -300px;
+    margin-left: 760px;
+}
+
+.content-login h1 {
+    color: rgba(0, 0, 0, 0.815);
+    font-size: 36px;
+}
+
+.content-login h6 {
+    font-size: 19px;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    font-weight: normal;
+}
+
+.number-email, .password-login {
+    width: 391px;
+}
+
+.register-area input {
+    margin: 8px 5px 5px 2px;
+    padding-left: 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid rgba(42, 49, 56, 0.233);
+    height: 35px;
+    outline: none;
+}
+
+input::placeholder {
+    font-size: 18px;
+    padding-left: 2px;
+    color: rgb(161, 161, 161);
+}
+
+.name-login {
+    width: 185px;
+}
+
+.birthday h4 {
+    margin-top: 18px;
+    color: rgb(143, 143, 143);
+}
+
+.birthday select {
+    border: 1px solid rgba(143, 143, 143, 0.521);
+    padding: 5px;
+    margin: -2.5px;
+    margin-top: 8px;
+    outline: none;
+}
+
+.genre {
+    margin-top: 18px;
+    color: rgb(143, 143, 143);
+}
+
+.genre-input input {
+    margin-top: 18px;
+}
+
+.genre-input label {
+    padding-left: 5px;
+    margin: 5px 5px 5px -6px;
+    color: black;
+    font-size: 18px;
+}
+
+.term {
+    margin-top: 25px;
+    line-height: 13px;
+    font-size: 11px;
+    color: rgb(143, 143, 143);
+}
+
+.term a {
+    text-decoration: none;
+    color: rgb(45, 97, 238);
+}
+
+.term a:hover {
+    text-decoration: underline;
+}
+
+.register input {
+    cursor: pointer;
+    margin-top: 20px;
+    outline: none;
+    width: 200px;
+    height: 38px;
+    border: 1px solid rgb(77, 77, 77);
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(rgb(89, 179, 89), rgb(91, 145, 66));
+}
+
+.register input:hover {
+    background: linear-gradient(rgb(95, 192, 95), rgb(104, 165, 76));
+}
+
+.register input[type=submit]{
+    font-size: 20px;
+}
+
+.create {
+    font-weight: bold;
+    color: rgb(143, 143, 143);
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.create a {
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(45, 97, 238);
+}
+
+.create a:hover {
+    text-decoration: underline;
+}
+
+/*Area do rodapé*/
+.footer-area {
+    background: #fff;
+}
+
+.language {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 185px;
+}
+
+.language a {
+    color: rgb(45, 97, 238);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
+
+.bar {
+    width: 970px;
+    margin: 12px auto;
+}
+
+.language-2 {
+    width: 990px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.language-2 a {
+    color: rgb(45, 97, 238);
+    padding: 8px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.language-2 a:hover {
+    text-decoration: underline;
+}
+
+.face-copy {
+    font-size: 11px;
+    color: rgb(128, 128, 128);
+    margin-left: 189px;
+    padding-bottom: 20px;
+}
